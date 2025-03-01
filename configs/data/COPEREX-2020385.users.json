@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "67bca94940c8279037ef5375"
+  },
+  "name": "Lupita",
+  "surname": "lupita22",
+  "username": "lupitamaria",
+  "email": "maria@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3fxnEOR38e6ZS9WCxSRLsg$oE8tXejOGbqw/mk354oVXhT5JNzvTNo8WJQ1zddeSMQ",
+  "profilePicture": null,
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "status": true
+}]
