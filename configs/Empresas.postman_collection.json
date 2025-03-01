@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "5ea3207c-9184-4829-894e-fcdc62fbb3e1",
+		"name": "Empresas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37660302"
+	},
+	"item": [
+		{
+			"name": "Agregar Administrador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Lupita\",\r\n  \"surname\": \"lupita22\",\r\n  \"username\": \"lupitamaria\",\r\n  \"email\": \"maria@gmail.com\",\r\n  \"phone\": \"12345678\",\r\n  \"password\": \"Mari22@secure\",\r\n  \"profilePicture\": \"file\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/auth/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login de Administrador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n   \"email\": \"maria@gmail.com\",\r\n  \"password\": \"Mari22@secure\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/auth/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar Empresa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"EcoSolutions\",\r\n    \"corporateReason\": \"EcoSolutions Global\",\r\n    \"nit\": \"54123678\",\r\n    \"category\": \"Grande\",\r\n    \"foundationDate\": \"2007-04-22\",\r\n    \"country\": \"México\",\r\n    \"city\": \"Guadalajara\",\r\n    \"phone\": \"3324567890\",\r\n    \"email\": \"info@ecosolutions.com\",\r\n    \"sitioWeb\": \"https://ecosolutions.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/comapnies/crearCompanies",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"comapnies",
+						"crearCompanies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Empresa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"EcoSolutions\",\r\n    \"corporateReason\": \"EcoSolutions Global\",\r\n    \"nit\": \"54123678\",\r\n    \"category\": \"Grande\",\r\n    \"foundationDate\": \"2007-04-22\",\r\n    \"country\": \"México\",\r\n    \"city\": \"Peten\",\r\n    \"phone\": \"3324567890\",\r\n    \"email\": \"info@ecosolutions.com\",\r\n    \"sitioWeb\": \"https://ecosolutions.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/comapnies/updateCompnies/67c2589eb72adaff915a59c8",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"comapnies",
+						"updateCompnies",
+						"67c2589eb72adaff915a59c8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excel Años de trayectori",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"minYears\": 1,\r\n    \"maxYears\": 10\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/comapnies/companiesexcel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"comapnies",
+						"companiesexcel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excel Categoría",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category\": \"Grande\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/comapnies/companiesexcel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"comapnies",
+						"companiesexcel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excel A a Z",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sort\": \"asc\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/comapnies/companiesexcel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"comapnies",
+						"companiesexcel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excel Z a A",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sort\": \"desc\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3001/empresaCOPEREX/v1/comapnies/companiesexcel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3001",
+					"path": [
+						"empresaCOPEREX",
+						"v1",
+						"comapnies",
+						"companiesexcel"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

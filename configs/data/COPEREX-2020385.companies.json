@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "67c25540640a7c12072514f0"
+  },
+  "name": "TravelGo",
+  "corporateReason": "TravelGo Agency",
+  "nit": "90567812",
+  "category": "Mediana",
+  "foundationDate": {
+    "$date": "2012-11-22T00:00:00.000Z"
+  },
+  "yearsCareer": 13,
+  "country": "Uruguay",
+  "city": "Montevideo",
+  "phone": "290123456",
+  "email": "help@travelgo.com",
+  "sitioWeb": "https://travelgo.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c25544640a7c12072514f3"
+  },
+  "name": "HealthCarePlus",
+  "corporateReason": "HealthCarePlus Medical",
+  "nit": "30214567",
+  "category": "Grande",
+  "foundationDate": {
+    "$date": "2003-10-25T00:00:00.000Z"
+  },
+  "yearsCareer": 22,
+  "country": "México",
+  "city": "Monterrey",
+  "phone": "8187654321",
+  "email": "contact@healthcareplus.com",
+  "sitioWeb": "https://healthcareplus.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c2554c640a7c12072514f6"
+  },
+  "name": "AutoParts360",
+  "corporateReason": "AutoParts360 S.A.",
+  "nit": "67584930",
+  "category": "Mediana",
+  "foundationDate": {
+    "$date": "2016-06-15T00:00:00.000Z"
+  },
+  "yearsCareer": 9,
+  "country": "Argentina",
+  "city": "Córdoba",
+  "phone": "3512345678",
+  "email": "info@autoparts360.com",
+  "sitioWeb": "https://autoparts360.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c2555a640a7c12072514f9"
+  },
+  "name": "BookNest",
+  "corporateReason": "BookNest Editorial",
+  "nit": "50839476",
+  "category": "Pequeña",
+  "foundationDate": {
+    "$date": "2019-08-05T00:00:00.000Z"
+  },
+  "yearsCareer": 6,
+  "country": "España",
+  "city": "Barcelona",
+  "phone": "34987654321",
+  "email": "support@booknest.com",
+  "sitioWeb": "https://booknest.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c25560640a7c12072514fc"
+  },
+  "name": "CodeGenius",
+  "corporateReason": "CodeGenius Software",
+  "nit": "21874365",
+  "category": "Grande",
+  "foundationDate": {
+    "$date": "2009-12-01T00:00:00.000Z"
+  },
+  "yearsCareer": 16,
+  "country": "Estados Unidos",
+  "city": "Seattle",
+  "phone": "2069876543",
+  "email": "contact@codegenius.com",
+  "sitioWeb": "https://codegenius.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c25567640a7c12072514ff"
+  },
+  "name": "FreshMarket",
+  "corporateReason": "FreshMarket Foods",
+  "nit": "93457281",
+  "category": "Mediana",
+  "foundationDate": {
+    "$date": "2014-05-20T00:00:00.000Z"
+  },
+  "yearsCareer": 11,
+  "country": "Colombia",
+  "city": "Medellín",
+  "phone": "6049876543",
+  "email": "sales@freshmarket.com",
+  "sitioWeb": "https://freshmarket.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c2556c640a7c1207251502"
+  },
+  "name": "HomeDecor",
+  "corporateReason": "HomeDecor Style",
+  "nit": "54839217",
+  "category": "Pequeña",
+  "foundationDate": {
+    "$date": "2017-02-10T00:00:00.000Z"
+  },
+  "yearsCareer": 8,
+  "country": "Chile",
+  "city": "Valparaíso",
+  "phone": "322987654",
+  "email": "support@homedecor.com",
+  "sitioWeb": "https://homedecor.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c25572640a7c1207251505"
+  },
+  "name": "NextGenAI",
+  "corporateReason": "NextGenAI Technologies",
+  "nit": "76943182",
+  "category": "Grande",
+  "foundationDate": {
+    "$date": "2011-07-17T00:00:00.000Z"
+  },
+  "yearsCareer": 14,
+  "country": "Francia",
+  "city": "París",
+  "phone": "33123456789",
+  "email": "info@nextgenai.com",
+  "sitioWeb": "https://nextgenai.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c25589640a7c1207251508"
+  },
+  "name": "SolarEnergy",
+  "corporateReason": "SolarEnergy Solutions",
+  "nit": "12398745",
+  "category": "Mediana",
+  "foundationDate": {
+    "$date": "2013-03-11T00:00:00.000Z"
+  },
+  "yearsCareer": 12,
+  "country": "México",
+  "city": "Cancún",
+  "phone": "9987654321",
+  "email": "info@solarenergy.com",
+  "sitioWeb": "https://solarenergy.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c2558f640a7c120725150b"
+  },
+  "name": "TechnoWare",
+  "corporateReason": "TechnoWare Systems",
+  "nit": "56783209",
+  "category": "Grande",
+  "foundationDate": {
+    "$date": "2008-09-27T00:00:00.000Z"
+  },
+  "yearsCareer": 17,
+  "country": "Brasil",
+  "city": "Río de Janeiro",
+  "phone": "552199876543",
+  "email": "contact@technoware.com",
+  "sitioWeb": "https://technoware.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c25594640a7c120725150e"
+  },
+  "name": "AgroFuture",
+  "corporateReason": "AgroFuture Sustainable",
+  "nit": "87654321",
+  "category": "Pequeña",
+  "foundationDate": {
+    "$date": "2016-12-14T00:00:00.000Z"
+  },
+  "yearsCareer": 9,
+  "country": "Argentina",
+  "city": "Rosario",
+  "phone": "3416789012",
+  "email": "support@agrofuture.com",
+  "sitioWeb": "https://agrofuture.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c255a1640a7c1207251511"
+  },
+  "name": "SkyNet Logistics",
+  "corporateReason": "SkyNet Logistics Global",
+  "nit": "90817263",
+  "category": "Grande",
+  "foundationDate": {
+    "$date": "2002-06-30T00:00:00.000Z"
+  },
+  "yearsCareer": 23,
+  "country": "Estados Unidos",
+  "city": "Los Ángeles",
+  "phone": "3239876543",
+  "email": "contact@skynetlogistics.com",
+  "sitioWeb": "https://skynetlogistics.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c255a6640a7c1207251514"
+  },
+  "name": "BioPharma",
+  "corporateReason": "BioPharma Research",
+  "nit": "45367219",
+  "category": "Mediana",
+  "foundationDate": {
+    "$date": "2010-11-23T00:00:00.000Z"
+  },
+  "yearsCareer": 15,
+  "country": "Alemania",
+  "city": "Berlín",
+  "phone": "4915123456789",
+  "email": "info@biopharma.com",
+  "sitioWeb": "https://biopharma.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c255ac640a7c1207251517"
+  },
+  "name": "DigitalWorld",
+  "corporateReason": "DigitalWorld Marketing",
+  "nit": "78965432",
+  "category": "Pequeña",
+  "foundationDate": {
+    "$date": "2019-05-18T00:00:00.000Z"
+  },
+  "yearsCareer": 6,
+  "country": "España",
+  "city": "Valencia",
+  "phone": "34987654321",
+  "email": "support@digitalworld.com",
+  "sitioWeb": "https://digitalworld.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c255b2640a7c120725151a"
+  },
+  "name": "AquaPure",
+  "corporateReason": "AquaPure Water Solutions",
+  "nit": "21987654",
+  "category": "Mediana",
+  "foundationDate": {
+    "$date": "2014-08-05T00:00:00.000Z"
+  },
+  "yearsCareer": 11,
+  "country": "Chile",
+  "city": "Santiago",
+  "phone": "5623456789",
+  "email": "help@aquapure.com",
+  "sitioWeb": "https://aquapure.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c256db640a7c120725151d"
+  },
+  "name": "AutoMotivePro",
+  "corporateReason": "AutoMotivePro Parts",
+  "nit": "45623178",
+  "category": "Grande",
+  "foundationDate": {
+    "$date": "2005-02-14T00:00:00.000Z"
+  },
+  "yearsCareer": 20,
+  "country": "Italia",
+  "city": "Milán",
+  "phone": "390212345678",
+  "email": "contact@automotivepro.com",
+  "sitioWeb": "https://automotivepro.com",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67c2589eb72adaff915a59c8"
+  },
+  "name": "EcoSolutions",
+  "corporateReason": "EcoSolutions Global",
+  "nit": "54123678",
+  "category": "Grande",
+  "foundationDate": {
+    "$date": "2007-04-22T00:00:00.000Z"
+  },
+  "yearsCareer": 18,
+  "country": "México",
+  "city": "Peten",
+  "phone": "3324567890",
+  "email": "info@ecosolutions.com",
+  "sitioWeb": "https://ecosolutions.com",
+  "status": true
+}]
